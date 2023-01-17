@@ -1,0 +1,336 @@
+.nav_rigth {
+    background-color: #0f1116;
+}
+
+.zz img {
+    margin: auto;
+    /* box-shadow: 0 0 20px #fff, -20px 0 80px #f0f, 20px 0 80px #0ff, inset 0 0 30px #fff, inset 50px 0 80px #f0f, inset -30px 0 80px #0ff, inset 30px 0 300px #f0f, inset -30px 0 300px #0ff; */
+}
+a{
+    text-decoration: dashed;
+}
+
+
+.lianxi .button {
+font-family: inherit;
+background: #2CA0D9;
+color: white;
+padding: 0.35em 0;
+font-size: 14px;
+border: none;
+border-radius: 0.7em;
+letter-spacing: 0.08em;
+position: relative;
+display: flex;
+align-content: center;
+align-items: center;
+overflow: hidden;
+height: 2.1em;
+padding-left: 2.8em;
+padding-right: 0.9em;
+}
+
+.lianxi .button .icon {
+background: #fff;
+height: 2em;
+width: 2em;
+border-radius: 2em;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+left: 0.4em;
+transition: all 0.5s;
+}
+
+.lianxi .icon svg {
+margin-left: 0.4em;
+transition: all 0.5s;
+color: #2CA0D9;
+width: 1.2rem;
+height: 1.2rem;
+}
+
+.lianxi .button:hover .icon svg {
+transform: rotate(360deg);
+}
+
+.lianxi .button:hover .icon {
+width: calc(100% - 0.85rem);
+border-radius: 0.5em;
+}
+
+.lianxi p{
+    margin-top: auto;
+}
+
+
+.gg img{
+    width: 100%;
+}
+
+
+
+
+/* 商品结算 start*/
+
+.spjs .card {
+    /* height: 350px; */
+    padding: .8em;
+    background: #f5f5f5;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    overflow: hidden;
+}
+
+.spjs .card-img img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.spjs .card-img {
+    background-color: #ffcaa6;
+    height: 140px;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.spjs .card-info {
+    padding-top: 10%;
+}
+
+.spjs svg {
+    width: 20px;
+    height: 20px;
+}
+
+.spjs .card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    flex-wrap: wrap;
+}
+
+/*Text*/
+.spjs .text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+    white-space: normal;
+}
+
+.spjs .text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+}
+
+/*Hover*/
+.spjs .card-img:hover {
+    transform: translateY(-5%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+/* 商品结算 end */
+
+
+
+/* 商品结算paly start */
+
+
+.card-button-1 button {
+    --green: #1BFD9C;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--green);
+    background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%, transparent 60%, rgba(27, 253, 156, 0.1) 100%);
+    color: var(--green);
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
+}
+
+.card-button-1 button:hover {
+    color: #82ffc9;
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
+}
+
+.card-button-1 button:before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%, rgba(27, 253, 156, 0.1) 60%, transparent 100%);
+}
+
+.card-button-1 button:hover:before {
+    transform: translateX(15em);
+}
+
+/* 填空 */
+
+/* 填空 */
+.tk .form__group {
+    position: relative;
+    padding: 20px 0 0;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 180px;
+}
+
+.tk .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 17px;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.tk .form__field::placeholder {
+    color: transparent;
+}
+
+.tk .form__field:placeholder-shown~.form__label {
+    font-size: 17px;
+    cursor: text;
+    top: 20px;
+}
+
+.tk .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #9b9b9b;
+    pointer-events: none;
+}
+
+.tk .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #116399, #38caef);
+    border-image-slice: 1;
+}
+
+.tk .form__field:focus~.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #38caef;
+    font-weight: 700;
+}
+
+/* reset input */
+.tk .form__field:required,
+.tk .form__field:invalid {
+    box-shadow: none;
+}
+
+
+/* 商品结算paly end */
+
+
+/* 商品支付方式 */
+.zffs{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.zffs .active{
+    --green: #1BFD9C;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--green) !important;
+    background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%, transparent 60%, rgba(27, 253, 156, 0.1) 100%);
+    color: var(--green);
+    box-shadow: inset 0 0 10px rgb(27 253 156 / 40%), 0 0 9px 3px rgb(27 253 156 / 10%);
+}
+.zffs .text-bg-dark{
+    border: 1px solid #006d82 ;
+    margin: 3px;
+}
+.zfje{
+    width: 4em;
+    background: none;
+    border: none;
+    color: #fff;
+    text-overflow:clip;
+}
+#model>div:nth-of-type(1){
+    height: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+#input_number{
+    display: inline-block;
+    max-width: 4em;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #1fbc00;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    font: normal 19px/normal "Courier New", Courier, monospace;
+    color: rgba(42,255,0,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(45,45,45,1);
+    box-shadow: 0 0 9px 4px rgba(0,0,0,0.15) , -1px 4px 8px -1px rgba(0,0,0,0.49) inset;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -webkit-transform: rotateX(-16.62deg) rotateY(-28.64788975654116deg);
+    transform: rotateX(-16.62deg) rotateY(0deg);
+  }
+  
+#input_number:hover {
+    -webkit-transform: rotateX(-15.62deg) rotateY(-23.65deg);
+    transform: rotateX(-15.62deg) rotateY(-23.65deg);
+  }
+  
+#input_number .search__icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #b4b4b4;
+  }
+  
+#input_number:focus {
+    outline: none;
+  }
