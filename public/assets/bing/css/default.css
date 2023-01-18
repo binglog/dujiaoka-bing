@@ -398,7 +398,7 @@ svg {
 
 
 /* 切换 */
-@media (min-width: 1780px) and  (max-width:1920px){
+@media (min-width: 1780px){
     .grop-sp{
         display: grid;
         grid-template-columns: repeat(5,1fr);
