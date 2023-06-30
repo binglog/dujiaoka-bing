@@ -465,6 +465,7 @@ svg {
     }
     .card-1{
         width: 100%;
+        padding: 10px !important;
     }
     .card-info div:nth-last-of-type(1){
         white-space: nowrap;
